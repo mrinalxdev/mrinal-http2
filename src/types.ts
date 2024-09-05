@@ -16,7 +16,7 @@ export interface BackendConfig {
   maxConnections : number;
 }
 
-export interface Metrices {
+export interface Metrics {
   requestCount : number;
   errorCount : number;
   averageResponseTime : number;

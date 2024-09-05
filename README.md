@@ -5,3 +5,4 @@ This is a powerfull and extensible HTTP/2 server framework built with NodeJs and
 This boiler plate code comes with fetures like
 - Load Balancing
 - Caching
+- Rate Limiters
