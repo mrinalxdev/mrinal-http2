@@ -2,10 +2,11 @@ export interface ServerConfig {
   port : number;
   cert : string;
   key : string;
+  sessionTimeout : number;
 }
 
-export interface LoadBalancerCondfig {
-  algorithm : 'round-robin' | 'leaset-connection' | 'weighted-round-robin' | 'ip-hash' | 'least-response-time' | 'consistent-hashing';
+export interface LoadBalancerConfig {
+  algorithm : 'round-robin' | 'least-connections' | 'weighted-round-robin' | 'ip-hash' | 'least-response-time' | 'consistent-hashing';
   healthCheckInterval : number;
   sessionTimeout : number;
 }
